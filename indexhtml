@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>雪茄艺术 - 品味非凡</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="雪茄艺术" class="logo">
+                <span class="brand-name">雪茄艺术</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">首页</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">关于雪茄</a></li>
+                <li class="nav-item"><a href="#types" class="nav-link">雪茄类型</a></li>
+                <li class="nav-item"><a href="#guide" class="nav-link">品鉴指南</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">雪茄图鉴</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">联系我们</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页横幅 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">雪茄艺术</h1>
+            <p class="hero-subtitle">品味时光的奢华，感受生活的艺术</p>
+            <button class="cta-button">探索雪茄世界</button>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- 关于雪茄 -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">关于雪茄</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>雪茄不仅仅是一种烟草制品，更是一种文化、一种艺术和一种生活方式的象征。每一支优质雪茄都凝聚了匠人的心血，从烟叶的种植、发酵到卷制，每一步都体现了对完美的追求。</p>
+                    <p>雪茄的历史可以追溯到玛雅文明时期，当时玛雅人已经开始吸食烟草。随着哥伦布发现新大陆，雪茄逐渐传入欧洲，并成为上流社会的象征。</p>
+                    <p>今天，雪茄已经成为品味与地位的象征，在世界各地拥有众多爱好者。</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/cigar-about.jpg" alt="雪茄制作过程">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 雪茄类型 -->
+    <section id="types" class="types-section">
+        <div class="container">
+            <h2 class="section-title">雪茄类型</h2>
+            <div class="types-grid">
+                <div class="type-card">
+                    <div class="type-icon">C</div>
+                    <h3>科罗娜</h3>
+                    <p>直筒形状，头部平切，是最经典的雪茄形状之一。</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">P</div>
+                    <h3>金字塔</h3>
+                    <p>头部尖细，底部较宽，燃烧时风味会逐渐变化。</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">T</div>
+                    <h3>托罗</h3>
+                    <p>粗壮型雪茄，环径较大，燃烧时间较长。</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">R</div>
+                    <h3>罗布斯托</h3>
+                    <p>短而粗的雪茄，风味浓郁，适合时间有限的场合。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 品鉴指南 -->
+    <section id="guide" class="guide-section">
+        <div class="container">
+            <h2 class="section-title">雪茄品鉴指南</h2>
+            <div class="guide-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>观察</h3>
+                    <p>观察雪茄的外观、颜色和结构，检查是否有瑕疵。</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>闻香</h3>
+                    <p>轻轻闻雪茄的香气，感受其前调风味。</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>剪切</h3>
+                    <p>使用专业的雪茄剪，切掉雪茄的头部。</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>点燃</h3>
+                    <p>使用雪茄专用打火机或雪松木片均匀点燃雪茄。</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>品吸</h3>
+                    <p>缓慢品吸，让烟雾在口中停留，感受其复杂风味。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 雪茄图鉴 -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">雪茄图鉴</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/cigar1.jpg" alt="科伊巴雪茄">
+                    <div class="gallery-info">
+                        <h3>科伊巴</h3>
+                        <p>古巴顶级雪茄品牌</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/cigar2.jpg" alt="蒙特克里斯托雪茄">
+                    <div class="gallery-info">
+                        <h3>蒙特克里斯托</h3>
+                        <p>风味浓郁，层次丰富</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/cigar3.jpg" alt="罗密欧与朱丽叶雪茄">
+                    <div class="gallery-info">
+                        <h3>罗密欧与朱丽叶</h3>
+                        <p>平衡优雅，香气独特</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/cigar4.jpg" alt="帕特加斯雪茄">
+                    <div class="gallery-info">
+                        <h3>帕特加斯</h3>
+                        <p>强劲有力，回味悠长</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">联系我们</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>雪茄艺术俱乐部</h3>
+                    <p>地址：上海市黄浦区雪茄路123号</p>
+                    <p>电话：+86 21 1234 5678</p>
+                    <p>邮箱：info@cigar-art.com</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">微信</a>
+                        <a href="#" class="social-link">微博</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="您的姓名" required>
+                        <input type="email" placeholder="您的邮箱" required>
+                        <textarea placeholder="您的留言" rows="5" required></textarea>
+                        <button type="submit">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 雪茄艺术 - 保留所有权利</p>
+            <p>本网站仅供成年人浏览，吸烟有害健康</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+/* 基础样式和VI设计 */
+:root {
+    --primary-color: #8B4513; /* 深棕色 - 雪茄颜色 */
+    --secondary-color: #D2691E; /* 巧克力色 */
+    --accent-color: #A0522D; /* 赭色 */
+    --light-color: #F5F5DC; /* 米色 */
+    --dark-color: #2F1B14; /* 深咖啡色 */
+    --text-color: #333333;
+    --text-light: #FFFFFF;
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-color);
+    line-height: 1.6;
+    background-color: var(--light-color);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 导航栏 */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(47, 27, 20, 0.95);
+    z-index: 1000;
+    padding: 15px 0;
+    transition: all 0.3s ease;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.brand-name {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    color: var(--text-light);
+    font-weight: 700;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    margin-left: 30px;
+}
+
+.nav-link {
+    color: var(--text-light);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--secondary-color);
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: var(--text-light);
+    margin: 3px 0;
+    transition: 0.3s;
+}
+
+/* 首页横幅 */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--text-light);
+    position: relative;
+}
+
+.hero-content {
+    z-index: 2;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.hero-title {
+    font-family: var(--font-heading);
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: var(--accent-color);
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* 通用部分样式 */
+section {
+    padding: 80px 0;
+}
+
+.section-title {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--dark-color);
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: var(--primary-color);
+}
+
+/* 关于雪茄部分 */
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 雪茄类型部分 */
+.types-section {
+    background-color: var(--dark-color);
+    color: var(--text-light);
+}
+
+.types-section .section-title {
+    color: var(--text-light);
+}
+
+.types-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.type-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.type-card:hover {
+    transform: translateY(-10px);
+}
+
+.type-icon {
+    width: 60px;
+    height: 60px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.type-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+/* 品鉴指南部分 */
+.guide-steps {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.step {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.step h3 {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+/* 雪茄图鉴部分 */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.gallery-item {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+    color: var(--text-light);
+    padding: 20px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover .gallery-info {
+    transform: translateY(0);
+}
+
+/* 联系我们部分 */
+.contact-content {
+    display: flex;
+    gap: 50px;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+}
+
+.contact-info h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-link {
+    display: inline-block;
+    margin-right: 15px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: var(--font-body);
+}
+
+.contact-form button {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: var(--accent-color);
+}
+
+/* 页脚 */
+.footer {
+    background-color: var(--dark-color);
+    color: var(--text-light);
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+/* 响应式设计 */
+@media screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
+        background-color: var(--dark-color);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        padding: 20px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 15px 0;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .guide-steps {
+        flex-direction: column;
+    }
+}
+// 导航栏功能
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+});
+
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}));
+
+// 导航栏滚动效果
+window.addEventListener("scroll", () => {
+    const navbar = document.querySelector(".navbar");
+    if (window.scrollY > 100) {
+        navbar.style.padding = "10px 0";
+        navbar.style.backgroundColor = "rgba(47, 27, 20, 0.98)";
+    } else {
+        navbar.style.padding = "15px 0";
+        navbar.style.backgroundColor = "rgba(47, 27, 20, 0.95)";
+    }
+});
+
+// 平滑滚动
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop - 70,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+// 表单提交
+const contactForm = document.querySelector('.contact-form form');
+if (contactForm) {
+    contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('感谢您的留言！我们会尽快与您联系。');
+        this.reset();
+    });
+}
+
+// CTA按钮点击事件
+const ctaButton = document.querySelector('.cta-button');
+if (ctaButton) {
+    ctaButton.addEventListener('click', function() {
+        document.querySelector('#about').scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+}
+
+// 页面加载动画
+window.addEventListener('load', () => {
+    document.body.classList.add('loaded');
+});
