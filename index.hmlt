@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>雪茄艺术 - 品味非凡</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="雪茄艺术" class="logo">
+                <span class="brand-name">雪茄艺术</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">首页</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">关于雪茄</a></li>
+                <li class="nav-item"><a href="#types" class="nav-link">雪茄类型</a></li>
+                <li class="nav-item"><a href="#guide" class="nav-link">品鉴指南</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">雪茄图鉴</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">联系我们</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页横幅 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">雪茄艺术</h1>
+            <p class="hero-subtitle">品味时光的奢华，感受生活的艺术</p>
+            <button class="cta-button">探索雪茄世界</button>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- 关于雪茄 -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">关于雪茄</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>雪茄不仅仅是一种烟草制品，更是一种文化、一种艺术和一种生活方式的象征。每一支优质雪茄都凝聚了匠人的心血，从烟叶的种植、发酵到卷制，每一步都体现了对完美的追求。</p>
+                    <p>雪茄的历史可以追溯到玛雅文明时期，当时玛雅人已经开始吸食烟草。随着哥伦布发现新大陆，雪茄逐渐传入欧洲，并成为上流社会的象征。</p>
+                    <p>今天，雪茄已经成为品味与地位的象征，在世界各地拥有众多爱好者。</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/cigar-about.jpg" alt="雪茄制作过程">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 雪茄类型 -->
+    <section id="types" class="types-section">
+        <div class="container">
+            <h2 class="section-title">雪茄类型</h2>
+            <div class="types-grid">
+                <div class="type-card">
+                    <div class="type-icon">C</div>
+                    <h3>科罗娜</h3>
+                    <p>直筒形状，头部平切，是最经典的雪茄形状之一。</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">P</div>
+                    <h3>金字塔</h3>
+                    <p>头部尖细，底部较宽，燃烧时风味会逐渐变化。</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">T</div>
+                    <h3>托罗</h3>
+                    <p>粗壮型雪茄，环径较大，燃烧时间较长。</p>
+                </div>
+                <div class="type-card">
+                    <div class="type-icon">R</div>
+                    <h3>罗布斯托</h3>
+                    <p>短而粗的雪茄，风味浓郁，适合时间有限的场合。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 品鉴指南 -->
+    <section id="guide" class="guide-section">
+        <div class="container">
+            <h2 class="section-title">雪茄品鉴指南</h2>
+            <div class="guide-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>观察</h3>
+                    <p>观察雪茄的外观、颜色和结构，检查是否有瑕疵。</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>闻香</h3>
+                    <p>轻轻闻雪茄的香气，感受其前调风味。</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>剪切</h3>
+                    <p>使用专业的雪茄剪，切掉雪茄的头部。</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>点燃</h3>
+                    <p>使用雪茄专用打火机或雪松木片均匀点燃雪茄。</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>品吸</h3>
+                    <p>缓慢品吸，让烟雾在口中停留，感受其复杂风味。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 雪茄图鉴 -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">雪茄图鉴</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/cigar1.jpg" alt="科伊巴雪茄">
+                    <div class="gallery-info">
+                        <h3>科伊巴</h3>
+                        <p>古巴顶级雪茄品牌</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/cigar2.jpg" alt="蒙特克里斯托雪茄">
+                    <div class="gallery-info">
+                        <h3>蒙特克里斯托</h3>
+                        <p>风味浓郁，层次丰富</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/cigar3.jpg" alt="罗密欧与朱丽叶雪茄">
+                    <div class="gallery-info">
+                        <h3>罗密欧与朱丽叶</h3>
+                        <p>平衡优雅，香气独特</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/cigar4.jpg" alt="帕特加斯雪茄">
+                    <div class="gallery-info">
+                        <h3>帕特加斯</h3>
+                        <p>强劲有力，回味悠长</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">联系我们</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>雪茄艺术俱乐部</h3>
+                    <p>地址：上海市黄浦区雪茄路123号</p>
+                    <p>电话：+86 21 1234 5678</p>
+                    <p>邮箱：info@cigar-art.com</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">微信</a>
+                        <a href="#" class="social-link">微博</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="您的姓名" required>
+                        <input type="email" placeholder="您的邮箱" required>
+                        <textarea placeholder="您的留言" rows="5" required></textarea>
+                        <button type="submit">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 雪茄艺术 - 保留所有权利</p>
+            <p>本网站仅供成年人浏览，吸烟有害健康</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
